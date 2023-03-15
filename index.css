@@ -1,0 +1,231 @@
+.body {
+  width: 100vw;
+  background-color: rgb(170, 178, 180);
+  padding: 0px 0px 5px 0px;
+}
+.bg-container {
+  background-size: cover;
+  box-shadow: inset;
+  /* background-color: rgba(166, 163, 163, 0.966); */
+}
+
+.container-fluid {
+  height: 5vh;
+  width: 10vh;
+  margin: 5px;
+  padding: 5px;
+  box-shadow: inset;
+}
+.container-fluid > a {
+  color: lightseagreen;
+}
+
+.navbar-brand {
+  color: green;
+  font-size: 20px;
+  font-family: inherit;
+  font-weight: bold;
+  font-style: inherit;
+  padding-right: 50px;
+}
+
+.nav-item {
+  color: black;
+  font-size: 15px;
+  font-family: inherit;
+  font-weight: 400;
+  font-style: inherit;
+}
+.nav-item > span > sup {
+  background-color: red;
+  color: aliceblue;
+  border-radius: 40px;
+  padding: 0px 2px;
+}
+li > span {
+  vertical-align: -webkit-baseline-middle;
+}
+
+.d-flex {
+  box-shadow: 5px;
+  margin-top: 10px;
+  border-radius: 0px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-right: 5px;
+  border-color: #096f92;
+}
+
+.card {
+  box-shadow: 5px 10px 5px gray;
+}
+.card-body1 {
+  /* background-color: white; */
+  border-style: solid;
+  border-width: 5px;
+  /* border-color: black; */
+  /* border-radius: 3px; */
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  text-align: center;
+  border-color: lightseagreen;
+  color: white;
+}
+
+.inside-card1 {
+  margin: auto;
+  position: inherit;
+  height: 4vh;
+  width: 30vh;
+  background-color: lightseagreen;
+  color: white;
+}
+.card-title1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+.card-text1 {
+  text-align: center;
+  color: lightseagreen;
+  font-size: 40px;
+  font-weight: 600;
+  margin: 2px;
+}
+
+.card-body2 {
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  border-radius: 0px;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  text-align: left;
+  border-color: royalblue;
+  color: white;
+}
+.inside-card2 {
+  margin: auto;
+  height: 4vh;
+  width: 30vh;
+  background-color: royalblue;
+  color: white;
+}
+.card-title2 {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: "Roboto";
+  font-weight: bold;
+  text-align: center;
+}
+.card-text2 {
+  color: royalblue;
+  font-size: 40px;
+  font-weight: 600;
+  margin: 2px;
+  text-align: center;
+}
+.card-body3 {
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  border-radius: 0px;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  text-align: left;
+  border-color: rgb(150, 136, 10);
+  color: white;
+}
+
+.inside-card3 {
+  margin: auto;
+  height: 4vh;
+  width: 30vh;
+  background-color: rgb(150, 136, 10);
+  color: white;
+}
+.card-title3 {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: "Roboto";
+  font-weight: bold;
+  text-align: center;
+}
+.card-text3 {
+  text-align: center;
+  color: rgb(150, 136, 10);
+  font-size: 40px;
+  font-weight: 600;
+  margin: 2px;
+}
+.card-body4 {
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  border-radius: 0px;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  text-align: left;
+  border-color: orange;
+  color: white;
+}
+
+.inside-card4 {
+  margin: auto;
+  height: 4vh;
+  width: 30vh;
+  background-color: orange;
+  color: white;
+}
+.card-title4 {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: "Roboto";
+  font-weight: bold;
+  text-align: center;
+}
+.card-text4 {
+  text-align: center;
+  color: orange;
+  font-size: 40px;
+  font-weight: 600;
+  margin: 2px;
+}
+
+.table-card-bg {
+  overflow-x: scroll;
+  height: 50vh;
+  box-shadow: 10px 15px 10px gray;
+  margin: 15px;
+  /* border-width: 5px; */
+  background-color: #ffffff;
+}
+.table-card {
+  font-size: 18px;
+  color: black;
+  font-family: "Roboto";
+  padding-left: 10px;
+  margin-top: 15px;
+  border-bottom: 1px solid #dad7d7;
+}
+thead > tr {
+  font-size: 11px;
+  font-weight: bold;
+  font-family: emoji;
+  position: sticky;
+  top: 0;
+  background-color: #8e9594;
+}
+tbody {
+  font-size: 11px;
+  font-family: "roboto";
+}
